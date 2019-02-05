@@ -1,0 +1,10 @@
+* Create new space and 6 pages to chech all possible combination
+
+1. Check that page cannot be child of itself
+2. Check that page with child can be moved as child of same level or higer
+3. Check that child can be moved up at any level
+4. Create hierarchy where top level has child with child and move child with their child at top
+(here trivial bug. top level element after moving child become element without child but it still has label that it has child)
+5. create hierarchy that top level has 2 child with their childs and then move 1 child as child of other or on the bottom of hierarchy
+6. create hierarchy 5.4.3.2.1 and move 2.1 as child of 4.
+7. create 2 hierarchy 6.5.4 and 3.2.1 move 2.1 as child of 6
